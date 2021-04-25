@@ -21,7 +21,7 @@ function mailto() {
     var mailto_link = 'mailto:' + email + '?subject=' +
         document.getElementById("inputMsg2").value + '&body=' +
         "Sender's email address: " + document.getElementById("inputMsg1").value +
-        "Sender's Full Name: " + document.getElementById("inputMsg4").value +
+        "\n" + "Sender's Full Name: " + document.getElementById("inputMsg4").value +
         document.getElementById("inputMsg3").value;
     window.open(mailto_link, 'emailWindow');
 
