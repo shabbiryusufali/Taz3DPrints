@@ -17,7 +17,7 @@ function toggleNav() {
 
 function mailto() {
 
-    var email = "tazbhaiji@gmail.com"
+    var email = "tazs3dprints@gmail.com "
     var mailto_link = 'mailto:' + email + '?subject=' +
         document.getElementById("inputMsg2").value + '&body=' +
         "|Sender's email address: " + document.getElementById("inputMsg1").value +
