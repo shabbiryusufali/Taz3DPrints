@@ -18,7 +18,11 @@ function toggleNav() {
 function mailto() {
 
     var email = "shabz2002786@gmail.com"
-    var mailto_link = 'mailto:' + email + '?subject=' + document.getElementById("inputMsg2").value + '&body=' + document.getElementById("inputMsg1").value + document.getElementById("inputMsg4").value + document.getElementById("inputMsg3").value;
+    var mailto_link = 'mailto:' + email + '?subject=' +
+        document.getElementById("inputMsg2").value + '&body=' +
+        "Sender's email address: " + document.getElementById("inputMsg1").value +
+        "Sender's Full Name: " + document.getElementById("inputMsg4").value +
+        document.getElementById("inputMsg3").value;
     window.open(mailto_link, 'emailWindow');
 
 
