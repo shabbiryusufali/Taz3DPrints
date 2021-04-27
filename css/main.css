@@ -1,11 +1,11 @@
 /*#region page styling*/
 
 .landing-page {
-    background-color: #89add8;
+    background-color: #8cb9f0;
 }
 
 .page {
-    background-color: #89add8;
+    background-color: #8cb9f0;
 }
 
 .pageTitle {
@@ -58,6 +58,7 @@ table {
     height: 20%;
     border-color: #162e2c;
     border-width: 2px;
+    text-decoration: none;
 }
 
 #showNav {
@@ -84,6 +85,7 @@ table {
 
 .content a {
     text-decoration: none;
+    color: #166962;
 }
 
 .content img {
