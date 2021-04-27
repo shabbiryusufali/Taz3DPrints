@@ -17,7 +17,7 @@
     overflow: hidden;
     position: fixed;
     width: 25%;
-    height: 99%;
+    height: 100%;
     top: 0;
     /*bottom: 0;*/
     z-index: 1000;
@@ -28,7 +28,7 @@
     float: center;
     padding: 10px;
     padding-top: 12.5%;
-    background-color: #CB2D6F;
+    background-color: #ffffff;
     position: relative;
     color: #162e2c;
     text-align: center;
@@ -36,6 +36,8 @@
     font-family: 'Syne Mono', monospace;
     font-weight: bold;
     height: 20%;
+    border-color: #162e2c;
+    border-width: 2px;
 }
 
 #showNav {
@@ -202,4 +204,10 @@ table {
 
 .imageCaption {
     color: #162e2c;
+}
+
+.sectionTitle {}
+
+.contentAlign {
+    padding-left: 5px;
 }
