@@ -6,7 +6,7 @@
     <meta charset="UTF-8">
     <script src="js/main.js"></script>
     <script src="js/jquery.js"></script>
-    <link rel="stylesheet" href="css/main.css" type="text/css">
+    <link rel="stylesheet" href="css/main.css?ver=2" type="text/css">
     <link rel="preload" href="https://fonts.gstatic.com">
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
@@ -16,6 +16,8 @@
 </head>
 
 <body class="landing-page">
+    <!--#region nav menu-->
+
     <button id="showNav" onclick="toggleNav()">
         <img src="img/list.svg" height="50px">
     </button>
@@ -26,7 +28,7 @@
         <a href="html/order.html" id="navItem">Order</a>
         <a href="html/contact.html" id="navItem">Contact Us</a>
     </nav>
-
+    <!--#endregion-->
     <header class="landing-header">
         <hgroup>
             <h1 class="pageTitle">Taz3DPrints</h1>
@@ -34,14 +36,16 @@
     </header>
     <section>
         <article>
-            <header>
-                <hgroup>
-                    <h2 class="sectionTitle">
-                        Hello!
-                    </h2>
-                </hgroup>
-            </header>
-            <div class="content">*This is going to be the page content once the website is complete*</div>
+            <div class="contentAlign">
+                <header>
+                    <hgroup>
+                        <h2 class="sectionTitle">
+                            Hello!
+                        </h2>
+                    </hgroup>
+                </header>
+                <div class="content">*This is going to be the page content once the website is complete*</div>
+            </div>
         </article>
     </section>
 </body>
