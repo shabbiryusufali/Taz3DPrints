@@ -69,11 +69,25 @@
 }
 
 .content p,
-h2,
-ul,
-li {
+table {
+    text-indent: 48px;
+}
+
+.content a {
+    text-decoration: none;
+}
+
+.content img {
+    padding: 10px;
+    /*    animation: 1s ease 0s slideInFromRight;*/
+    background-color: #000000;
+    box-shadow: 0 4px 8px 0 #162e2c, 0 6px 20px 0 #162e2c;
+}
+
+.content {
     color: #162e2c;
-    /*animation: 0.5s ease 0s slideInFromLeft;*/
+    z-index: 100;
+    font-size: 18px;
 }
 
 
@@ -199,33 +213,10 @@ li {
 
 /*#endregion*/
 
-.content {
-    color: #162e2c;
-    z-index: 100;
-    font-size: 18px;
-}
-
-.content p,
-table {
-    text-indent: 48px;
-}
-
-.content a {
-    text-decoration: none;
-}
-
 table {
     display: block;
     color: #162e2c;
     /* animation: 1s ease 0s slideInFromRight;*/
-}
-
-.content img {
-    padding: 10px;
-    /*    animation: 1s ease 0s slideInFromRight;*/
-    background-color: #000000;
-    color: #162e2c;
-    box-shadow: 0 4px 8px 0 #162e2c, 0 6px 20px 0 #162e2c;
 }
 
 .imageCaption {
