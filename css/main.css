@@ -11,6 +11,13 @@
     background-color: #89add8;
 }
 
+.page {
+    background-color: #89add8;
+}
+
+
+/*#region navMenu items*/
+
 #navMenu {
     display: none;
     text-align: left;
@@ -51,6 +58,9 @@
     z-index: 2000;
 }
 
+
+/*#endregion*/
+
 .pageTitle {
     font-family: 'New Tegomin', serif;
     text-align: center;
@@ -65,6 +75,9 @@ li {
     color: #162e2c;
     /*animation: 0.5s ease 0s slideInFromLeft;*/
 }
+
+
+/*#region keyframes for chrome, mozilla and safari*/
 
 @keyframes slideInFromLeft {
     0% {
@@ -182,6 +195,9 @@ li {
         transform: translateX(0%);
     }
 }
+
+
+/*#endregion*/
 
 .content {
     color: #162e2c;
