@@ -136,6 +136,10 @@ table {
     color: #166962;
 }
 
+.contentTable h2 {
+    font-size: 18px;
+}
+
 .contentTable {
     color: #162e2c;
     z-index: 100;
@@ -143,10 +147,25 @@ table {
     animation-name: homeContent;
     animation-duration: 2s;
     max-width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+    width: 512px;
 }
 
-.contentAlign {
-    padding-left: 5px;
+#inputMsg1 {
+    width: 100%
+}
+
+#inputMsg2 {
+    width: 100%
+}
+
+#inputMsg3 {
+    width: 100%
+}
+
+#inputMsg4 {
+    width: 100%
 }
 
 
