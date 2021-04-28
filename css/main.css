@@ -1,7 +1,20 @@
 /*#region page styling*/
 
 .landing-page {
+    /*background-color: #8cb9f0;*/
+    background-image: url("../img/splash2.jpg");
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
     background-color: #8cb9f0;
+    background-repeat: no-repeat;
+}
+
+.landing-page div,
+header {
+    animation-name: homeContent;
+    animation-duration: 2s;
 }
 
 .page {
@@ -36,7 +49,7 @@ table {
     text-align: left;
     overflow: hidden;
     position: fixed;
-    width: 25%;
+    min-width: 25%;
     height: 100%;
     top: 0;
     /*bottom: 0;*/
@@ -57,7 +70,7 @@ table {
     font-weight: bold;
     height: 20%;
     border-color: #162e2c;
-    border-width: 2px;
+    border-width: 5px;
     text-decoration: none;
 }
 
@@ -99,6 +112,8 @@ table {
     color: #162e2c;
     z-index: 100;
     font-size: 18px;
+    animation-name: homeContent;
+    animation-duration: 2s;
 }
 
 .contentAlign {
@@ -109,7 +124,78 @@ table {
 /*#endregion*/
 
 
-/*#region keyframes for chrome, mozilla and safari*/
+/*#region class=contentTable*/
+
+.contentTable p,
+table {
+    text-indent: 48px;
+}
+
+.contentTable a {
+    text-decoration: none;
+    color: #166962;
+}
+
+.contentTable {
+    color: #162e2c;
+    z-index: 100;
+    font-size: 18px;
+    animation-name: homeContent;
+    animation-duration: 2s;
+    max-width: 75%;
+}
+
+.contentAlign {
+    padding-left: 5px;
+}
+
+
+/*#endregion*/
+
+
+/*#region keyframes for home page*/
+
+@keyframes homeContent {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+@-moz-keyframes homeContent {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+@-o-keyframes homeContent {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+@-webkit-keyframes homeContent {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+
+/*#endregion*/
+
+
+/*#region keyframes for products page and Nav Menu for chrome, mozilla and safari*/
 
 @keyframes slideInFromLeft {
     0% {
